@@ -43,3 +43,10 @@ background-color: #EEEEEE;
 .container_Buttons-Large{
 	display: inline-block;
 }
+
+@media screen and (max-width:1200px) {
+	.contentBox {
+		margin-top: 10vh!important;
+		margin-bottom: 10vh!important;
+	}
+}
