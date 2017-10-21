@@ -1,0 +1,29 @@
+body {
+background-color: #EEEEEE;	
+}
+.row {
+	margin-top: 10vh;
+}
+.mainUser{
+	height: 60vh;
+	background-color: #E0E0E0;
+	background-image: url("../../img/azat-satlykov-391812.jpg");
+	background-size: cover;	
+	box-shadow: 3px 3px 3px 0 #9E9E9E;
+	background-position: center;
+}
+.navbar-custom {
+	height: 72px;
+}
+.btnLarge-mainPage{
+	font-size: 1.2rem;
+}
+.padding-text_small{
+	padding-bottom: 5vh;
+}
+.padding-text_medium{
+	padding-bottom: 10vh;
+}
+.container_Buttons-Large{
+	display: inline-block;
+}
