@@ -15,10 +15,8 @@
 		<p class="padding-text_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum laborum nulla mollitia dolore quaerat provident animi corporis, quas aperiam non.</p>
 		
 		<div class="container_Buttons-Large">
-			
-				<a href="#" class="btn btn-primary btnLarge-mainPage">Play</a>
-			
-			<button class="btn btn-success btnLarge-mainPage">Mode</button>
+                    <a class="btn btn-primary" href="./include/mode.php">Play</a>
+                    <a class="btn btn-success" href="./include/mode.php">Mode</a>
 		</div>
 	</div>
 </div>
