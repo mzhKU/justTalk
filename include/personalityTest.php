@@ -1,5 +1,5 @@
 <?php
 include 'header.php';
-include 'modeSelection.php';
+include 'personalityPage.php';
 include 'footer.php';
 ?>

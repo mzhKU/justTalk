@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
-include 'pages/registrationContent.php';
-include 'footer.php';
+include 'include/header.php';
+include 'include/registrationPage.php';
+include 'include/footer.php';
 ?>

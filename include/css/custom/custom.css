@@ -1,9 +1,131 @@
 body {
-background-color: #EEEEEE;	
+background-color: #EEEEEE;
+font-family: 'Lato', sans-serif;
 }
+
+.backgroundSign{
+	background-image: url('../img/azat-satlykov-391812.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.spacer_min {
+	height: 2.5vh;
+	width: 100%;
+}
+
+.spacer_small {
+	height: 5vh;
+	width: auto;
+}
+
 .spacer {
 	height: 10vh;
 	width: 100%;
+}
+
+.relationshipHEADER{
+	font-size: 1.6rem;
+}
+
+.containerQuestion {
+	background-color: #EEEEEE;
+	box-shadow: 2px 2px 2px #BDBDBD;
+	padding: 1rem;
+}
+
+.containerQuestion > p {
+	font-weight: 600;
+}
+
+.userAnswer {
+	padding: 1rem;
+	color: #9E9E9E;
+}
+
+.imageSuvenir{
+	height: 25vh;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgTime{
+	background-image:url('../../../img/time.png');
+}
+
+.imgAngel{
+	background-image:url('../../../img/angel.png');
+}
+
+.imgBlock{
+	background-image:url('../../../img/block.png');
+}
+
+.imageSuvenirText {
+	text-align: center;
+}
+
+.blueLine{
+	width: 90%;
+	height: 1.2rem;
+	margin: 0 5%;
+	border: 2px solid #BDBDBD;
+	border-radius: 2px;
+}
+
+.linepercent{
+	height: 1rem;
+	width: 95%;
+	background-color: #5BC0DE ;
+	border-radius: 2px;
+}
+
+.headerState{
+	text-align: center
+}
+
+.whitespace{
+	background-color: white;
+	box-shadow: 0 3px 3px 2px #BDBDBD;
+}
+.btnCenterRelationship{
+	width: 31%;
+}
+
+.photoMan{
+	background-image: url("../../../img/man.jpg");
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.photoWomen{
+	background-image: url("../../../img/woman.jpg");
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.imageRelationShip{
+	background-color: white;
+	background-image:url('../../../img/Relationship.png');
+	background-size: contain;
+	background-position: center;
+	height: 120vh;
+	background-repeat: no-repeat;
+}
+
+#pleasureContent{
+	display:none;
+}
+
+#BoundContent{
+	display:none;
+}
+
+#problemContent{
+	display:none;
 }
 
 .mainUser{
@@ -14,18 +136,61 @@ background-color: #EEEEEE;
 	box-shadow: 3px 3px 3px 0 #9E9E9E;
 	background-position: center;
 }
+
+.form_input > label {
+	width: 17%;
+}
+
 .form_input{
 	display: inline;
+	width: 70%;
+}
+
+.form_input > .form-control{
+	display: inline;
+	width: 70%;
+}
+
+.form_checkbox {
+	margin-left: 17%;
+}
+
+.form_checkbox {
+	width: 33%;
+}
+
+.button_fluid {
+	width: 66%;
+	font-size: 1.2rem;
+	margin: 0 17%;
 }
 
 .contentBox {
 	margin-top: 10vh;
-	height: 60vh;
+	min-height: 50vh;
 	background-color: #FAFAFA;
 	background-size: cover;	
-	box-shadow: 3px 3px 3px 0 #9E9E9E;
+	box-shadow: 2px 2px 3px 0 #9E9E9E;
 	background-position: center;
 	margin: 0 2rem;
+	padding: 1.5rem 1.5rem;
+	border-radius: 3px;
+}
+
+.logonBox {
+	margin-top: 10vh;
+	min-height: 25vh;
+	background-color: #FAFAFA;
+	background-size: cover;	
+	box-shadow: 2px 2px 3px 0 #9E9E9E;
+	background-position: center;
+	margin: 0 2rem;
+	padding: 1.5rem 1.5rem;
+	border-radius: 3px;
+}
+
+.form-control_custom{
+	padding: 4px 6px!important;
 }
 
 .navbar-custom {
@@ -34,6 +199,11 @@ background-color: #EEEEEE;
 .btnLarge-mainPage{
 	font-size: 1.2rem;
 }
+
+.padding-text_min {
+	padding-bottom: 2.5vh
+}
+
 .padding-text_small{
 	padding-bottom: 5vh;
 }
