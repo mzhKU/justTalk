@@ -12,6 +12,9 @@
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="css/custom/custom.css">
 
+        <script src="./js/jQueryCustom.js"></script>
+        <script src="./js/custom.js"></script>
+
 	<title>JustTalk</title>
 
 </head>
